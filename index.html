@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome Online Services - Your one-stop solution for printing, money transfer, and document services">
+    <title>Awesome Online Services - Print, Transfer, Document Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-star"></i>
+                    <span>Awesome Online Services</span>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to <span class="highlight">Awesome Online Services</span></h1>
+            <p class="hero-subtitle">Your one-stop solution for all printing, money transfer, and document services</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-card card-1">
+                <i class="fas fa-print"></i>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fas fa-money-bill-transfer"></i>
+            </div>
+            <div class="floating-card card-3">
+                <i class="fas fa-id-card"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for all your document and financial needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-service="money-transfer">
+                    <div class="service-icon">
+                        <i class="fas fa-money-bill-transfer"></i>
+                    </div>
+                    <h3>Money Transfer</h3>
+                    <p>Fast and secure money transfer services with competitive rates</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="xerox">
+                    <div class="service-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>Xerox Services</h3>
+                    <p>High-quality photocopying with bulk order discounts</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="internet-prints">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Internet Prints</h3>
+                    <p>Print documents directly from the internet or cloud storage</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="pvc-cards">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>PVC Cards</h3>
+                    <p>Professional PVC ID cards, membership cards, and more</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="lamination">
+                    <div class="service-icon">
+                        <i class="fas fa-file-shield"></i>
+                    </div>
+                    <h3>Lamination</h3>
+                    <p>Protect your documents with professional lamination services</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="spiral-binding">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Spiral Binding</h3>
+                    <p>Durable spiral binding for reports, manuals, and documents</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="soft-binding">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Soft Binding</h3>
+                    <p>Professional soft binding for presentations and reports</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+
+                <div class="service-card" data-service="large-prints">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Large Format Prints</h3>
+                    <p>From A4 to A0 size prints for all your needs</p>
+                    <button class="btn btn-small learn-more">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pricing</h2>
+                <p class="section-subtitle">Competitive rates for quality services</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Print Sizes</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>A4 (Black & White)</span>
+                            <span class="price">$0.10</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A4 (Color)</span>
+                            <span class="price">$0.50</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A3 (Black & White)</span>
+                            <span class="price">$0.20</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A3 (Color)</span>
+                            <span class="price">$1.00</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A2 (Color)</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A1 (Color)</span>
+                            <span class="price">$7.00</span>
+                        </div>
+                        <div class="price-item">
+                            <span>A0 (Color)</span>
+                            <span class="price">$12.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Binding Services</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Spiral Binding</span>
+                            <span class="price">$2.50</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Soft Binding</span>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Lamination (A4)</span>
+                            <span class="price">$1.00</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Lamination (A3)</span>
+                            <span class="price">$2.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Other Services</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>PVC Card</span>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Xerox (per page)</span>
+                            <span class="price">$0.08</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Money Transfer</span>
+                            <span class="price">2-3% fee</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bulk-discount">
+                <i class="fas fa-gift"></i>
+                <p>Bulk orders get special discounts! Contact us for custom quotes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Awesome Online Services has been serving the community with top-notch printing, document, and financial services. We pride ourselves on quality, speed, and customer satisfaction.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Fast Turnaround</h4>
+                                <p>Quick service without compromising quality</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Secure & Reliable</h4>
+                                <p>Your documents and transactions are safe with us</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h4>Affordable Pricing</h4>
+                                <p>Competitive rates for all services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5000">0</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="50000">0</div>
+                        <div class="stat-label">Documents Printed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Services Offered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Have questions? We'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Visit Us</h4>
+                        <p>123 Business Street<br>City, State 12345</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Call Us</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>info@awesomeonline.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Business Hours</h4>
+                        <p>Mon-Fri: 9AM-6PM<br>Sat: 10AM-4PM</p>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="money-transfer">Money Transfer</option>
+                            <option value="xerox">Xerox Services</option>
+                            <option value="internet-prints">Internet Prints</option>
+                            <option value="pvc-cards">PVC Cards</option>
+                            <option value="lamination">Lamination</option>
+                            <option value="spiral-binding">Spiral Binding</option>
+                            <option value="soft-binding">Soft Binding</option>
+                            <option value="large-prints">Large Format Prints</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Awesome Online Services</h4>
+                    <p>Your trusted partner for printing, documents, and financial services.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Money Transfer</a></li>
+                        <li><a href="#services">Printing</a></li>
+                        <li><a href="#services">Binding</a></li>
+                        <li><a href="#services">PVC Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@awesomeonline.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Business St</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Awesome Online Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
