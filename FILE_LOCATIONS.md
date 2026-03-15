@@ -3,25 +3,27 @@
 ## Repository Location
 **Base Directory**: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging`
 
-## 📂 Root Directory Files
+## 📂 awesome-online-services Directory
 
 ### Website Files (Awesome Online Services)
-Located in the **root directory**:
+Located in the **`awesome-online-services/`** directory:
 
 - **`index.html`** (14 KB, 317 lines)
   - Main website HTML file
   - Contains all service sections, pricing, and contact form
-  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/index.html`
+  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/awesome-online-services/index.html`
 
 - **`styles.css`** (14 KB, 779 lines)
   - Complete stylesheet for the website
   - Includes responsive design, animations, and themes
-  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/styles.css`
+  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/awesome-online-services/styles.css`
 
 - **`script.js`** (14 KB, 417 lines)
   - JavaScript for interactive features
   - Service modals, form handling, animations
-  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/script.js`
+  - Location: `/home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/awesome-online-services/script.js`
+
+## 📂 Root Directory Files
 
 ### Documentation Files
 Located in the **root directory**:
@@ -105,32 +107,32 @@ Located in **`.github/steps/`**:
 ```
 /home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/
 │
-├── 🌐 Website Files (Root)
-│   ├── index.html          # Main website HTML
-│   ├── styles.css          # Website styles
-│   └── script.js           # Website JavaScript
+├── 🌐 awesome-online-services/    # Website directory
+│   ├── index.html                 # Main website HTML
+│   ├── styles.css                 # Website styles
+│   └── script.js                  # Website JavaScript
 │
 ├── 📖 Documentation (Root)
-│   ├── README.md           # General readme
-│   ├── WEBSITE_README.md   # Website documentation
-│   ├── QUICKSTART.md       # Quick start guide
-│   ├── PROFILE.md          # Profile info
-│   └── FILE_LOCATIONS.md   # This file (file locations)
+│   ├── README.md                  # General readme
+│   ├── WEBSITE_README.md          # Website documentation
+│   ├── QUICKSTART.md              # Quick start guide
+│   ├── PROFILE.md                 # Profile info
+│   └── FILE_LOCATIONS.md          # This file (file locations)
 │
 ├── ⚙️ Configuration (Root)
-│   ├── .gitignore          # Git ignore patterns
-│   ├── LICENSE             # License file
-│   └── Filexyz             # Misc file
+│   ├── .gitignore                 # Git ignore patterns
+│   ├── LICENSE                    # License file
+│   └── Filexyz                    # Misc file
 │
 └── 📁 .github/
-    ├── workflows/          # GitHub Actions workflows
+    ├── workflows/                 # GitHub Actions workflows
     │   ├── 0-start-exercise.yml
     │   ├── 1-create-a-branch.yml
     │   ├── 2-commit-a-file.yml
     │   ├── 3-open-a-pull-request.yml
     │   └── 4-merge-your-pull-request.yml
     │
-    └── steps/              # Exercise step documentation
+    └── steps/                     # Exercise step documentation
         ├── 1-create-a-branch.md
         ├── 2-commit-a-file.md
         ├── 3-open-a-pull-request.md
@@ -143,6 +145,7 @@ Located in **`.github/steps/`**:
 ### By Purpose:
 
 **Website Files** (3 files - 42 KB total):
+- Located in `awesome-online-services/` directory
 - index.html
 - styles.css
 - script.js
@@ -173,10 +176,13 @@ Located in **`.github/steps/`**:
 cd /home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging
 
 # View website files
-ls -lh *.html *.css *.js
+ls -lh awesome-online-services/
+
+# Navigate to website directory
+cd awesome-online-services
 
 # View documentation
-ls -lh *.md
+cd .. && ls -lh *.md
 
 # View GitHub workflows
 ls -lh .github/workflows/
@@ -188,12 +194,12 @@ find . -type f ! -path "./.git/*"
 ### From Web Browser:
 Open the website by accessing:
 ```
-file:///home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/index.html
+file:///home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/awesome-online-services/index.html
 ```
 
 Or use a local server:
 ```bash
-cd /home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging
+cd /home/runner/work/Chat-d_Token_gated-_messaging/Chat-d_Token_gated-_messaging/awesome-online-services
 python3 -m http.server 8000
 # Visit: http://localhost:8000
 ```
@@ -212,11 +218,13 @@ python3 -m http.server 8000
 ## 🔗 Key File Relationships
 
 1. **Website Stack**:
+   - Located in `awesome-online-services/` directory
    - `index.html` → references → `styles.css`
    - `index.html` → references → `script.js`
    - All three work together to create the website
 
 2. **Documentation Chain**:
+   - Located in root directory
    - `README.md` → General overview
    - `WEBSITE_README.md` → Detailed website docs
    - `QUICKSTART.md` → Quick deployment guide

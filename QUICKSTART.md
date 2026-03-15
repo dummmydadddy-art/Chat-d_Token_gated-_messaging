@@ -71,6 +71,9 @@ A fully functional, interactive, and dynamic website for **Awesome Online Servic
 
 ### Option 1: Direct File Opening
 ```bash
+# Navigate to the website directory
+cd awesome-online-services
+
 # Simply open the file in your browser
 open index.html  # macOS
 start index.html # Windows
@@ -79,6 +82,9 @@ xdg-open index.html # Linux
 
 ### Option 2: Local Server (Recommended)
 ```bash
+# Navigate to the website directory
+cd awesome-online-services
+
 # Using Python 3
 python3 -m http.server 8000
 
@@ -87,8 +93,9 @@ python3 -m http.server 8000
 
 ### Option 3: VS Code Live Server
 1. Install "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
+2. Navigate to the `awesome-online-services` directory
+3. Right-click on `index.html`
+4. Select "Open with Live Server"
 
 ## 📱 Test on Different Devices
 
@@ -112,7 +119,7 @@ python3 -m http.server 8000
 ## 🎨 Customization Guide
 
 ### Change Colors
-Edit in `styles.css`:
+Edit in `awesome-online-services/styles.css`:
 ```css
 :root {
     --primary-color: #6366f1;    /* Change primary color */
@@ -122,7 +129,7 @@ Edit in `styles.css`:
 ```
 
 ### Update Contact Info
-Edit in `index.html` (around line 211):
+Edit in `awesome-online-services/index.html` (around line 211):
 ```html
 <p>123 Service Street, Business District</p>
 <p>+1 (555) 123-4567</p>
@@ -130,7 +137,7 @@ Edit in `index.html` (around line 211):
 ```
 
 ### Modify Service Details
-Edit in `script.js` (lines 1-76):
+Edit in `awesome-online-services/script.js` (lines 1-76):
 ```javascript
 const serviceDetails = {
     'service-name': {
